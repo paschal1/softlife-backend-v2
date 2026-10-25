@@ -1,3 +1,88 @@
+# Softlife Backend V2
+
+A backend project for an ERP and inventory management system, designed to support business operations and inventory workflows.
+
+## Overview
+
+Softlife Backend V2 is being developed as the server-side foundation for an inventory management or enterprise resource planning application.
+
+The aim is to organize business data and provide backend functionality for managing inventory and related operational processes.
+
+## Technology Stack
+
+- Node.js
+- NestJS, if confirmed by the current source code
+- PostgreSQL
+- API architecture and database persistence
+
+## Core Modules
+
+Document the modules that currently exist. Depending on the implementation, these may include:
+
+- Product and item management
+- Inventory quantities and stock movements
+- Categories and units of measurement
+- Suppliers and purchasing
+- Sales and order records
+- Users, roles, and permissions
+- Reporting and operational summaries
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js compatible with the project
+- npm
+- PostgreSQL
+- The package manager and ORM used by the project
+
+### Installation
+
+```bash
+git clone https://github.com/paschal1/softlife-backend-v2.git
+cd softlife-backend-v2
+npm install
+```
+
+Configure the environment variables required by the application, including the PostgreSQL connection details.
+
+If the project uses Prisma, follow its existing schema and migration workflow. Otherwise, use the migration tooling already configured in the repository.
+
+Start the application using the scripts defined in `package.json`. For a standard NestJS development setup, the command is commonly:
+
+```bash
+npm run start:dev
+```
+
+Confirm that the script exists before using it.
+
+## Database
+
+PostgreSQL is the intended database for this project. Document the actual schema, relationships, migration process, and seed data as the implementation matures.
+
+## API Documentation
+
+If Swagger is configured, provide the local documentation URL and instructions for accessing it.
+
+## Development Roadmap
+
+Keep this list aligned with actual development priorities:
+
+- Complete inventory workflows
+- Improve input validation and error handling
+- Add automated tests
+- Document API endpoints
+- Implement operational reports where required
+
+## Project Status
+
+**In development.** The exact modules and available endpoints depend on the current implementation.
+
+## Author
+
+**Paschal Chikwado Nwokeocha**
+
+[GitHub Repository](https://github.com/paschal1/softlife-backend-v2)
 # SoftLife Backend
 
 Modular NestJS monolith implementing the foundation from the SoftLife Product Plan
